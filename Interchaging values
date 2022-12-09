@@ -1,0 +1,10 @@
+a = 10
+b = 20
+print("Before interchanging")
+print("Value of a: ",a)
+print("Value of b: ",b)
+b=b-a
+a=a+b
+print("After interchanging")
+print("Value of a: ",a)
+print("Value of b: ",b)
