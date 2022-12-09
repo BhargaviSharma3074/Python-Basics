@@ -1,0 +1,4 @@
+#write a program to calculate and print the volume of sphere
+radius = float(input("Enter the value: "))
+volume = 4/3*3.14*radius**3
+print("Volume of sphere = ",round(volume,2))#rounds off the value to specified no. of places
