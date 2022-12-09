@@ -1,0 +1,6 @@
+temp = float(input("Enter the temperature in degree Celcius: "))
+convert_to_f = temp*9/5 + 32
+print("The given temperature converted in Fahrenheit is: ", convert_to_f)
+temp2 = float(input("Enter the temperature in degree Fahrenheit: "))
+convert_to_c = (temp2 - 32)*5/9
+print("The given temperature converted in Celcius is: ", convert_to_c)
