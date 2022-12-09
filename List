@@ -1,0 +1,19 @@
+l = []
+n = int(input("Enter the number of elements: "))
+for i in range(n):
+    e = int(input("Enter the element: "))
+    l.append(e)
+print(l)
+def maxmin(l):
+    mx = l[0]
+    for i in l:
+        if mx<i:
+            mx=i
+    mn = l[0]
+    for i in l:
+        if mn > i:
+            mn = i
+    return mx,mn
+a,b = maxmin(l)
+print("MAX:",a)
+print("MIN:",b)
